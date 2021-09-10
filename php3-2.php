@@ -18,6 +18,7 @@ function dbConnection(){
 
   // PDOオブジェクト生成（DBへ接続）してretun文で返す
   return  new PDO($dsn, $user, $password, $options);
+
 }
 
 
@@ -94,7 +95,7 @@ if($delete_id){
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
